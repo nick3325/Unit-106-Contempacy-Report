@@ -1,0 +1,114 @@
+main{
+    display: flex;
+    background-image:url(../MYCalendar/img/00a0f-sw-531542.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+h1{
+    background-image: url(../MYCalendar/img/giphy.gif);
+    text-align: center;
+    color: rgb(121, 117, 117);
+}
+
+
+main{
+    display: flex;
+}
+
+section{
+    flex: 2;
+    
+}
+
+aside{
+    flex: 1;
+    background-image: url(../MYCalendar/img/black-background-wood-i-e29da4-4k-hd-desktop-wallpaper-for-4k-ultra-hd.webp);
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}
+
+aside h3{
+    text-align: center;
+    color: white;
+}
+
+
+.iImportant{
+    font-size: 32px;
+    color: red;
+    cursor: pointer;
+}
+
+.iImportant.fas{
+    color: red;
+}
+
+.form div{
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+
+.form div label{
+    margin-bottom: 3px;
+}
+
+.button-container{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.task{
+    display: flex;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 6px;
+}
+
+.task:hover{
+    border-color: red;
+}
+
+.task .task-title{
+    flex: 2;
+}
+
+.task .task-title h5{
+    margin-bottom: 5px;
+    color: black;
+}
+
+.task .task-title p{
+    margin-bottom: 5px;
+}
+
+.task .task-middle{
+    flex: 1;
+}
+
+div label.form-label{
+    color: white;
+}
+
+.tasl .task-middle label{
+    display: block;
+    margin-top: 7px;
+}
+
+#btnToggleDetails{
+    position: relative;
+    margin-top: 10px;
+    left: 5px;
+}
+
+#btnDelete{
+    position: relative;
+    margin-top: 10px;
+    left: 5px
+}
